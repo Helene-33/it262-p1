@@ -4,6 +4,24 @@
     box-sizing: border-box;
 }
 
+body, html {
+    background-color: rgb(231, 201, 162);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color:rgb(185, 66, 51);
+    font-family: American Typewritter, serif;
+    font-size: 2.6em;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.fieldset {
+    border: 1.5px solid rgb(63, 61, 61);
+}
+
 form {
     margin: 5% 10%;
     width: 80%;
@@ -23,6 +41,16 @@ input {
 #submit {
     margin: 10px auto;
     padding: 8px;
+    background-color:rgb(185, 66, 51);
+    font-size:1.3em;
+    border:1pxsolid#eee;
+    border-radius:10px;
+}
+
+#submit:hover {
+    background-color:rgb(182, 97, 86);
+    border:1pxsolid#eee;
+    border-radius:15px;
 }
 
 #temp {
@@ -30,10 +58,6 @@ input {
     padding: 5px;
 }
 
-h1 {
-    text-align: center;
-    font-weight: bold;
-}
 
 ul {
     list-style-type: none;
