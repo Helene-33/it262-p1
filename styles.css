@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    margin: 5% 10%;
+    width: 80%;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 10px;
+}
+
+input {
+    display: block;
+    margin: 3px;
+}
+
+#submit {
+    margin: 10px auto;
+    padding: 8px;
+}
+
+#temp {
+    margin-left:10px;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li, ul input {
+    padding: 5px;
+    display: inline-block;
+}
+
+.error { /*errror spans*/
+    margin: 10px auto;
+    font-weight: bold;
+    color: red;
+}
+
+.result { /*converted temp div*/
+    margin: 20px auto;
+    width: 60%;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.result h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
