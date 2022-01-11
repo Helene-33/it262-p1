@@ -43,13 +43,13 @@ input {
     padding: 8px;
     background-color:rgb(185, 66, 51);
     font-size:1.3em;
-    border:1pxsolid#eee;
+    border:1px solid #eee;
     border-radius:10px;
 }
 
 #submit:hover {
     background-color:rgb(182, 97, 86);
-    border:1pxsolid#eee;
+    border:1px solid #eee;
     border-radius:15px;
 }
 
