@@ -152,8 +152,8 @@ if ($errorMsg === "") {
                     }
                 ?>
             </li>
-            <li><a href="http://validator.w3.org/check/referer" target="_blank">HTML validation</a></li>
-            <li><a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">CSS validation</a></li>
+            <li><a href="https://validator.w3.org/nu/?doc=https://ellencodes.com/it262wn22/homeworks/p1TempConversion/tempconvert.php" target="_blank">HTML Validation</a></li>
+            <li><a href="https://jigsaw.w3.org/css-validator/validator?uri=https://ellencodes.com/it262wn22/homeworks/p1TempConversion/tempconvert.php" target="_blank">CSS Validation</a></li>
         </ul>
 
     </footer>
